@@ -1,9 +1,9 @@
 import pandas as pd
 import logging
 from typing import Dict, Any
-from ..state import AgentState
-from ...data.loader import DataLoader
-from ...data.calculator import KPICalculator
+from agent.state import AgentState
+from data.loader import DataLoader
+from data.calculator import KPICalculator
 
 logger = logging.getLogger(__name__)
 

@@ -2,8 +2,8 @@ import json
 import logging
 from typing import Dict, Any
 from anthropic import Anthropic
-from ..state import AgentState
-from ...config.settings import settings
+from agent.state import AgentState
+from config.settings import settings
 
 logger = logging.getLogger(__name__)
 
