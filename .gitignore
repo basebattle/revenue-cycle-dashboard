@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Streamlit
+.streamlit/
+static/
+
+# Application Specific
+revenue_cycle_dashboard/data/*.db
+revenue_cycle_dashboard/data/query_cache.db
+revenue_cycle_dashboard/exports/*.pptx
+revenue_cycle_dashboard/exports/*.xlsx
+revenue_cycle_dashboard/exports/*.pdf
+
+# OS
+.DS_Store
