@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from revenue_cycle_dashboard.data.loader import DataLoader
-from revenue_cycle_dashboard.config.settings import settings
+from data.loader import DataLoader
+from config.settings import settings
 
 def render():
     """Renders the data management page."""

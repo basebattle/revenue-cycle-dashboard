@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from revenue_cycle_dashboard.config.settings import settings
+from config.settings import settings
 
 def main():
     st.set_page_config(
@@ -26,19 +26,19 @@ def main():
 
     # 3. Routing Logic
     if page == "📈 Dashboard":
-        from revenue_cycle_dashboard.views.dashboard import render
+        from views.dashboard import render
         render()
     elif page == "💬 AI Query":
-        from revenue_cycle_dashboard.views.query import render
+        from views.query import render
         render()
     elif page == "📋 Reports":
-        from revenue_cycle_dashboard.views.reports import render
+        from views.reports import render
         render()
     elif page == "⚖️ Benchmarks":
-        from revenue_cycle_dashboard.views.benchmarks import render
+        from views.benchmarks import render
         render()
     elif page == "⚙️ Data Management":
-        from revenue_cycle_dashboard.views.data_management import render
+        from views.data_management import render
         render()
 
 

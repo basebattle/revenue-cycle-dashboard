@@ -3,14 +3,14 @@ import pandas as pd
 from datetime import date, timedelta
 from typing import Dict, Any
 
-from revenue_cycle_dashboard.data.loader import DataLoader
-from revenue_cycle_dashboard.data.calculator import KPICalculator
-from revenue_cycle_dashboard.data.benchmarks import BenchmarkData
-from revenue_cycle_dashboard.components.kpi_card import render_kpi_card
-from revenue_cycle_dashboard.components.trend_chart import render_trend_chart
-from revenue_cycle_dashboard.components.filters import render_dashboard_filters
-from revenue_cycle_dashboard.components.anomaly_alert import render_anomaly_alert
-from revenue_cycle_dashboard.config.constants import KPI_METADATA
+from data.loader import DataLoader
+from data.calculator import KPICalculator
+from data.benchmarks import BenchmarkData
+from components.kpi_card import render_kpi_card
+from components.trend_chart import render_trend_chart
+from components.filters import render_dashboard_filters
+from components.anomaly_alert import render_anomaly_alert
+from config.constants import KPI_METADATA
 
 def render():
     """Renders the main dashboard page."""

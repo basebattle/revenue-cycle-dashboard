@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from revenue_cycle_dashboard.data.calculator import KPICalculator
+from data.calculator import KPICalculator
 from datetime import date
 
 def test_net_collection_rate():

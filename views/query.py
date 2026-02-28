@@ -1,6 +1,6 @@
 import streamlit as st
-from revenue_cycle_dashboard.agent.orchestrator import run_agent
-from revenue_cycle_dashboard.components.chat_message import render_chat_message
+from agent.orchestrator import run_agent
+from components.chat_message import render_chat_message
 
 def render():
     """Renders the AI Query Console page."""

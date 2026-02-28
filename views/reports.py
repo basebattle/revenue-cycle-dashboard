@@ -1,9 +1,9 @@
 import streamlit as st
 import os
 from datetime import datetime
-from revenue_cycle_dashboard.data.loader import DataLoader
-from revenue_cycle_dashboard.data.calculator import KPICalculator
-from revenue_cycle_dashboard.templates.board_deck import generate_board_deck
+from data.loader import DataLoader
+from data.calculator import KPICalculator
+from templates.board_deck import generate_board_deck
 
 def render():
     st.header("📋 Report Generator")

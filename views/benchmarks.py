@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-from revenue_cycle_dashboard.data.loader import DataLoader
-from revenue_cycle_dashboard.data.calculator import KPICalculator
-from revenue_cycle_dashboard.data.benchmarks import BenchmarkData
-from revenue_cycle_dashboard.config.constants import KPI_METADATA
+from data.loader import DataLoader
+from data.calculator import KPICalculator
+from data.benchmarks import BenchmarkData
+from config.constants import KPI_METADATA
 
 def render():
     st.header("⚖️ Benchmark Comparison")
